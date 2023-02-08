@@ -50,7 +50,6 @@ func _ready() -> void:
 	end = Time.get_ticks_usec()
 	second = end - start
 	
-	
 	# labels as nanoseconds
 #	$first.text = "1st: %f ns" %(first as float / RUNS as float * 1000.0)
 #	$second.text = "2st: %f ns" %(second as float / RUNS as float * 1000.0)
