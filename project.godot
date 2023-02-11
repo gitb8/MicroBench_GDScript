@@ -1,0 +1,28 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="MicroBench"
+config/description="Godot project to test and compare the speed of two functions/implementations.
+
+Usage: Insert your instructions / function calls in the script, compile the project and run it outside the editor. Running the project in the editor will run it as debug, which can cause a false benchmark result.
+"
+run/main_scene="res://Scenes/MicroBench.tscn"
+config/features=PackedStringArray("4.0", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=192
+window/size/viewport_height=52
+window/size/resizable=false
+window/vsync/vsync_mode=0
+window/stretch/mode="canvas_items"
