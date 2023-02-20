@@ -1,14 +1,14 @@
 extends Control
 
-# set run repetitions:
-const RUNS: int = 65536
-
 # set variables for bench:
 
 #var a: int = 0
 
 
 func _ready() -> void:
+	# set run repetitions:
+	const RUNS: int = 65536
+	
 	var start: int
 	var end: int
 	var first: int
