@@ -1,20 +1,18 @@
 extends Control
 
-# set variables for bench:
-
-#var a: int = 0
+# add variables for bench:
 
 
 func _ready() -> void:
 	# set run repetitions:
 	const RUNS: int = 65536
 	
-	var start: int
-	var end: int
+	var start: int = 0
+	var end: int = 0
 	var first: int
 	var second: int
 	
-	# set local variables for bench:
+	# add local variables for bench:
 	
 	var a: int = 0
 	
